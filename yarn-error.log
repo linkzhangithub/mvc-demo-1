@@ -1,0 +1,36 @@
+Arguments: 
+  D:\Software\nodejs\node.exe D:\Software\yarn\bin\yarn.js add jquery
+
+PATH: 
+  D:\Software\cmder\vendor\git-for-windows\mingw64\bin;D:\Software\cmder\vendor\git-for-windows\usr\bin;C:\Users\zhang\bin;C:\Program Files\Java\jdk1.8.0_202\bin;C:\Program Files\Java\jdk1.8.0_202\jre\bin;D:\app\zhang\product\11.2.0\dbhome_2\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\MySQL\MySQL Utilities 1.6;D:\study\apache-tomcat-9.0.19-windows-x64\apache-tomcat-9.0.19\bin;D:\Software\nodejs;D:\Software\yarn\bin;C:\Users\zhang\AppData\Local\Microsoft\WindowsApps;C:\Users\zhang\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\zhang\AppData\Roaming\npm;C:\Users\zhang\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  14.17.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.npmmirror.com/jquery/-/jquery-3.6.0.tgz: Request failed "500 Internal Server Error"
+      at ResponseError.ExtendableBuiltin (D:\Software\yarn\lib\cli.js:696:66)
+      at new ResponseError (D:\Software\yarn\lib\cli.js:802:124)
+      at Request.<anonymous> (D:\Software\yarn\lib\cli.js:66167:16)
+      at Request.emit (events.js:375:28)
+      at Request.module.exports.Request.onRequestResponse (D:\Software\yarn\lib\cli.js:141626:10)
+      at ClientRequest.emit (events.js:375:28)
+      at HTTPParser.parserOnIncomingClient (_http_client.js:647:27)
+      at HTTPParser.parserOnHeadersComplete (_http_common.js:126:17)
+      at TLSSocket.socketOnData (_http_client.js:515:22)
+      at TLSSocket.emit (events.js:375:28)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
